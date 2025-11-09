@@ -35,10 +35,11 @@ Praktikum-PBO-Enkapsulasi/
 Menunjukkan bagaimana *enkapsulasi* mencegah manipulasi langsung dan menjaga integritas data objek.  
 
 **Output Program:**
+```
 Milla memiliki nilai 85
 Setelah diperbarui: 95
 Error: Score harus antara 0 sampai 100
-
+```
 ---
 
 ### Student2  
@@ -56,11 +57,12 @@ Error: Score harus antara 0 sampai 100
 Lebih aman dan menggambarkan perilaku dunia nyata — perubahan skor dilakukan lewat aksi yang masuk akal, bukan penetapan langsung.  
 
 **Output Program:**
+```
 Milla memiliki score 70
 Setelah addScore(20): 90
 Error: Score tidak boleh lebih dari 100
 Setelah reduceScore(30): 60
-
+```
 ---
 
 ### Team  
@@ -77,13 +79,14 @@ Melindungi data koleksi agar tidak bisa dimanipulasi langsung dari luar objek.
 Ini adalah bentuk lanjutan dari enkapsulasi yang menjaga *integritas koleksi data*.
 
 **Output Program:**
+```
 Daftar anggota tim:
 - Milla (85)
 - Agustin (90)
 Setelah clear copy, anggota asli:
 - Milla (85)
 - Agustin (90)
-
+```
 ---
 
 ### ImmutableStudent  
@@ -100,10 +103,11 @@ Setelah clear copy, anggota asli:
 - Cocok untuk sistem yang butuh kestabilan atau multi-threading.
 
 **Output Program:**
+```
 s1: Milla = 80
 s2: Milla = 90
 Error: Score hasil perubahan tidak valid
-
+```
 ---
 
 ## Kesimpulan 
@@ -115,12 +119,13 @@ Keempat latihan ini menunjukkan tahapan evolusi **enkapsulasi**:
 
 Dengan cara ini, kamu bisa menjaga agar **objek selalu dalam keadaan valid, aman, dan mudah di-maintain.**
 
-Cara Menjalankan Program
+**Cara Menjalankan Program**
+```
 javac Student1.java && java Student1
 javac Student2.java && java Student2
 javac Team.java && java Team
 javac ImmutableStudent.java && java ImmutableStudent
-
+```
 Nama : Milla Agustin
 NIM  : L0324020
 Pertemuan: 6 - Enkapsulasi
