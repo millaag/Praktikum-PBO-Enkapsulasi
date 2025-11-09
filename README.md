@@ -1,15 +1,19 @@
 **Praktikum PBO - Enkapsulasi**
 
 Tugas Pertemuan 6 - Pemrograman Berorientasi Objek (PBO)
+
 Topik utama: Encapsulation (Enkapsulasi) - menyembunyikan data agar hanya bisa diakses melalui method yang terkontrol.
 
 **Tujuan**
-```
+
 Memahami konsep enkapsulasi dalam OOP.
+
 Melatih penggunaan access modifier (private, public).
+
 Mencegah manipulasi langsung terhadap data objek.
+
 Mempelajari immutable object sebagai bentuk enkapsulasi tingkat lanjut.
-```
+
 **Struktur Program**
 ```
 Praktikum-PBO-Enkapsulasi/
@@ -22,6 +26,7 @@ Praktikum-PBO-Enkapsulasi/
 ## Penjelasan Tiap Latihan
 
 ### Student1  
+
 **Konsep utama:** *getter & setter dengan validasi nilai (basic encapsulation)*  
 
 **Penjelasan:**
@@ -76,6 +81,7 @@ Setelah reduceScore(30): 60
 
 **Tujuan:**  
 Melindungi data koleksi agar tidak bisa dimanipulasi langsung dari luar objek.  
+
 Ini adalah bentuk lanjutan dari enkapsulasi yang menjaga *integritas koleksi data*.
 
 **Output Program:**
@@ -120,13 +126,21 @@ Keempat latihan ini menunjukkan tahapan evolusi **enkapsulasi**:
 Dengan cara ini, kamu bisa menjaga agar **objek selalu dalam keadaan valid, aman, dan mudah di-maintain.**
 
 **Cara Menjalankan Program**
-```
+
 javac Student1.java && java Student1
+
 javac Student2.java && java Student2
+
 javac Team.java && java Team
+
 javac ImmutableStudent.java && java ImmutableStudent
-```
+
+Identitas
+
 Nama : Milla Agustin
+
 NIM  : L0324020
+
 Pertemuan: 6 - Enkapsulasi
+
 Mata Kuliah: Pemrograman Berorientasi Objek
