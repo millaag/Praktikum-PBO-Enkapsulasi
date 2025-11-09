@@ -1,16 +1,16 @@
-Praktikum PBO - Enkapsulasi
+**Praktikum PBO - Enkapsulasi**
 
 Tugas Pertemuan 6 - Pemrograman Berorientasi Objek (PBO)
 Topik utama: Encapsulation (Enkapsulasi) - menyembunyikan data agar hanya bisa diakses melalui method yang terkontrol.
 
-Tujuan
-
+**Tujuan**
+```
 Memahami konsep enkapsulasi dalam OOP.
 Melatih penggunaan access modifier (private, public).
 Mencegah manipulasi langsung terhadap data objek.
 Mempelajari immutable object sebagai bentuk enkapsulasi tingkat lanjut.
-
-Struktur Program
+```
+**Struktur Program**
 ```
 Praktikum-PBO-Enkapsulasi/
 │
