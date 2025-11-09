@@ -116,15 +116,6 @@ Error: Score hasil perubahan tidak valid
 ```
 ---
 
-## Kesimpulan 
-Keempat latihan ini menunjukkan tahapan evolusi **enkapsulasi**:
-1. **Student1** → dasar: menyembunyikan field dengan getter/setter.  
-2. **Student2** → kontrol lebih kuat dengan method perilaku.  
-3. **Team** → melindungi koleksi agar tak bisa diubah dari luar.  
-4. **ImmutableStudent** → objek sepenuhnya aman (tidak bisa diubah).  
-
-Dengan cara ini, kamu bisa menjaga agar **objek selalu dalam keadaan valid, aman, dan mudah di-maintain.**
-
 **Cara Menjalankan Program**
 
 javac Student1.java && java Student1
@@ -134,6 +125,17 @@ javac Student2.java && java Student2
 javac Team.java && java Team
 
 javac ImmutableStudent.java && java ImmutableStudent
+
+## Kesimpulan 
+Keempat latihan ini menunjukkan tahapan evolusi **enkapsulasi**:
+1. **Student1** → dasar: menyembunyikan field dengan getter/setter.  
+2. **Student2** → kontrol lebih kuat dengan method perilaku.  
+3. **Team** → melindungi koleksi agar tak bisa diubah dari luar.  
+4. **ImmutableStudent** → objek sepenuhnya aman (tidak bisa diubah).  
+
+Dengan cara ini, kamu bisa menjaga agar **objek selalu dalam keadaan valid, aman, dan mudah di-maintain.**
+
+
 
 **Identitas**
 
