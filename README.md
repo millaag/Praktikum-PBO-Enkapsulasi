@@ -14,10 +14,10 @@ Struktur Program
 ```
 Praktikum-PBO-Enkapsulasi/
 │
-├── Student1.java
-├── Student2.java
-├── Team.java
-└── ImmutableStudent.java
+├── Student1.java & MainStudent1.java
+├── Student2.java & MainStudent2.java
+├── Team.java & MainTeam
+└── ImmutableStudent.java & MainImmutableStudent
 ```
 Penjelasan Tiap Latihan
 1. Student1
